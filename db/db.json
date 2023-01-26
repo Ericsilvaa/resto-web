@@ -90,5 +90,25 @@
       "name": "Jair Maciel",
       "id": 15
     }
+  ],
+  "restaurant": [
+    {
+      "id": 1,
+      "name": "Burguer King",
+      "contact": 1111,
+      "address": "Noida sector 50"
+    },    
+    {
+      "id": 2,
+      "name": "Dominos",
+      "contact": 222222,
+      "address": "Gurgaon sector 50"
+    },  
+    {
+      "id": 3,
+      "name": "KFC",
+      "contact": 333333,
+      "address": "Delgi CP"
+    }
   ]
 }

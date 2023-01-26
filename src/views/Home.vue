@@ -7,6 +7,7 @@
 
 <script>
 import Header from "../components/Header.vue";
+import axios from 'axios'
 
 export default {
   name: "HomePage",
@@ -16,15 +17,19 @@ export default {
   data() {
     return {
       name: null,
+
     };
   },
-  mounted() {
+  async mounted() {
     const user = localStorage.getItem("user-info");
     this.name = JSON.parse(user).name;
 
     if (!user) {
       this.$router.push({ name: "SignUp" });
     }
+
+    const restaurant = await axios.get("http://localhost:3000/restaurant")
+    console.warn(restaurant)
   },
 };
 </script>
