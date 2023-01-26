@@ -1,0 +1,94 @@
+{
+  "users": [
+    {
+      "name": "Eric Silva",
+      "email": "ericsilva@email.com",
+      "password": "12313@l",
+      "id": 1
+    },
+    {
+      "email": "bandeiras08@gmail.com",
+      "password": "bandeirinhabandeirinha",
+      "name": "Antonio Bandeiras",
+      "id": 2
+    },
+    {
+      "email": "parfon@parfon.com.br",
+      "password": "euroiueoirhhfoi",
+      "name": "parfon",
+      "id": 3
+    },
+    {
+      "email": "parfon2@parfon.com.br",
+      "password": "123456",
+      "name": "parfon2",
+      "id": 4
+    },
+    {
+      "email": "sam@teste.com.br",
+      "password": "sam@123",
+      "name": "sam",
+      "id": 5
+    },
+    {
+      "email": "antonia@123.com",
+      "password": "123213",
+      "name": "antonia",
+      "id": 6
+    },
+    {
+      "email": "eriicsilva28@gmail.com",
+      "password": "123456",
+      "name": "eric",
+      "id": 7
+    },
+    {
+      "email": "teste@gmail.com",
+      "password": "teste@123",
+      "name": "teste",
+      "id": 8
+    },
+    {
+      "email": "erere",
+      "password": "ererer",
+      "name": "errrer",
+      "id": 9
+    },
+    {
+      "email": "ericeiercie",
+      "password": "hjeofnivfd",
+      "name": "eric",
+      "id": 10
+    },
+    {
+      "email": "brenda@gmail.com",
+      "password": "eric@123454",
+      "name": "brenda",
+      "id": 11
+    },
+    {
+      "email": "ereoireo@gmail.com",
+      "password": "ekihbvfui!123546",
+      "name": "eruuc",
+      "id": 12
+    },
+    {
+      "email": "drgrtghrthg",
+      "password": "dfhrthtrh6h",
+      "name": "eflihjfikg",
+      "id": 13
+    },
+    {
+      "email": "aontionioe@fijubnr",
+      "password": "batmanm",
+      "name": "Eric",
+      "id": 14
+    },
+    {
+      "email": "jairmaciel@gmail.com",
+      "password": "jair",
+      "name": "Jair Maciel",
+      "id": 15
+    }
+  ]
+}
