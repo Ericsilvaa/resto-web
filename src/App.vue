@@ -33,4 +33,30 @@ nav a {
 nav a.router-link-exact-active {
   color: #42b983;
 }
+
+.logo {
+  width: 85px;
+}
+
+.register input, .add input {
+  width: 300px;
+  height: 30px;
+  padding-left: 10px;
+  display: flex;
+  margin: 20px auto;
+  border: 1px solid skyblue;
+}
+
+.register button, .add button {
+  width: 315px;
+  height: 35px;
+  border: 1px solid skyblue;
+  cursor: pointer;
+  background: skyblue;
+  color: #fff;
+}
+
+.register button:hover {
+  opacity: 0.8;
+}
 </style>

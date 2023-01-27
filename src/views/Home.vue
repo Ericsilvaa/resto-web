@@ -2,6 +2,20 @@
   <div>
     <Header />
     <h1>Hello {{ name }}, welcome on Home Page</h1>
+    <table border="1">
+      <tr>
+        <td>Id</td>
+        <td>Name</td>
+        <td>Contact</td>
+        <td>Adress</td>
+      </tr>
+      <tr v-for="item in restaurant" :key="item.id">
+        <td>{{ item.id }}</td>
+        <td>{{ item.name }}</td>
+        <td>{{ item.contact }}</td>
+        <td>{{ item.address }}</td>
+      </tr>
+    </table>
   </div>
 </template>
 
@@ -17,7 +31,7 @@ export default {
   data() {
     return {
       name: null,
-
+      restaurant:[]
     };
   },
   async mounted() {
@@ -30,8 +44,15 @@ export default {
 
     const restaurant = await axios.get("http://localhost:3000/restaurant")
     console.warn(restaurant)
+    this.restaurant = restaurant.data
   },
 };
 </script>
 
-<style></style>
+<style>
+td {
+  width: 160px;
+  height: 40px;
+}
+
+</style>

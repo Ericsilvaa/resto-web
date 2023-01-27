@@ -60,29 +60,5 @@ export default {
 </script>
 
 <style>
-.logo {
-  width: 85px;
-}
 
-.register input {
-  width: 300px;
-  height: 30px;
-  padding-left: 10px;
-  display: flex;
-  margin: 20px auto;
-  border: 1px solid skyblue;
-}
-
-.register button {
-  width: 315px;
-  height: 35px;
-  border: 1px solid skyblue;
-  cursor: pointer;
-  background: skyblue;
-  color: #fff;
-}
-
-.register button:hover {
-  opacity: 0.8;
-}
 </style>
