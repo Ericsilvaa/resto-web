@@ -89,26 +89,32 @@
       "password": "jair",
       "name": "Jair Maciel",
       "id": 15
+    },
+    {
+      "email": "ericoliveira@gmail.com",
+      "password": "eric",
+      "name": "Eric Oliveira",
+      "id": 16
     }
   ],
   "restaurant": [
     {
-      "id": 1,
-      "name": "Burguer King",
-      "contact": 1111,
-      "address": "Noida sector 50"
-    },    
-    {
-      "id": 2,
       "name": "Dominos",
-      "contact": 222222,
-      "address": "Gurgaon sector 50"
-    },  
+      "address": "Gurgaon sector 55",
+      "contact": "222211",
+      "id": 2
+    },
     {
       "id": 3,
       "name": "KFC",
       "contact": 333333,
       "address": "Delgi CP"
+    },
+    {
+      "name": "Rauli Otario",
+      "address": "Rua dos Otarios 23",
+      "contact": "85580028922",
+      "id": 5
     }
   ]
 }
